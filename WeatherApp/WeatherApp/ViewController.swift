@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let darkSkyUrl: String = "https://api.darksky.net/forecast/2e04fe850d0893458afdcb2805cb773b/47.6057666,-122.3330932"
+    let darkSkyUrl: String = "https://api.darksky.net/forecast/{api-key}/47.6057666,-122.3330932"
     let degreeSymbol: String = "°"
     var currentTemperature: String = String()
     
